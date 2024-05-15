@@ -49,7 +49,6 @@ Fork deze leertaak en ga aan de slag met de [files die klaar staan](https://fdnd
 Voor elk component staat een HTML-file klaar met een demo video van het eindresultaat. 
 In de HTML van elk component staan wat hints en content die je nodig hebt.
 
-
 ### UI componenten
 
 Maak minimaal 3 van onderstaande user interface componenten: 
@@ -63,6 +62,13 @@ Maak minimaal 3 van onderstaande user interface componenten:
 - [File upload met preview](https://fdnd-task.github.io/progressive-enhancement/file.html)
 - [Tabbladen](https://fdnd-task.github.io/progressive-enhancement/tabs.html)
 
+#### voor sprint 11
+
+Voor sprint 11 is het het interessantst om componenten uit je ontwerp voor de leertaak in sprint 11 te gebruiken. 
+Je mag ook componenten uit bovenstaande lijst gebruiken.
+Het is een individuele opdracht - dus elke teamlid werkt eigen componenten uit (of maakt een substantieel andere uitwerking van dezelfde component).
+
+Ieder teamlid werkt minimaal 2 componenten uit.
 
 ### Aanpak (per component)
 
@@ -76,6 +82,9 @@ Maak minimaal 3 van onderstaande user interface componenten:
 8. Test deze “enhanced” versie(s) op verschillende browsers en devices.
 9. Documenteer je experiment.
 
+#### voor sprint 11
+10. In sprint 11 is het doel pleasurable (ga lekker los).
+11. Documenteer je experiment.
 
 ### Bronnen bouwfase
 
