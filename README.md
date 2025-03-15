@@ -1,4 +1,7 @@
-> _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+Verschillende componenten bouwen volgens het principe van Progressive Enhancement
+
+De instructies voor deze opdracht staan in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/progressive-enhancement/blob/main/docs/INSTRUCTIONS.md)
+
 
 # Progressive Enhancement
 
