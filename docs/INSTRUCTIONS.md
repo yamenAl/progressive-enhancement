@@ -4,14 +4,7 @@
 
 Ontwerp en bouw een website in lagen
 
-## Context
-
-Deze deeltaak hoort bij sprint 9 "The Web is for Everyone". Dit is een deeltaak die je individueel uitvoert.
-
-In het college _S09W2-02-Progressive-Enhancement wordt behandeld wat Progressive Enhancement is.
-
-Deze deeltaak hoort bij de leertaak:
-- [the-web-is-for-everyone-interactive-functionality](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality)
+In het college _S09W2-01-Progressive-Enhancement wordt behandeld wat Progressive Enhancement is.
 
 
 
