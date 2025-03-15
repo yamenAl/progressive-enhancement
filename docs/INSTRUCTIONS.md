@@ -2,7 +2,7 @@
 
 # Progressive Enhancement
 
-Ontwerp en bouw een website in lagen
+Een oefening in het ontwerpen en bouwen van websites volgens het principe van Progressive Enhancement
 
 In het college _S09W2-01-Progressive-Enhancement wordt behandeld wat Progressive Enhancement is.
 
@@ -33,7 +33,7 @@ Als een browser CSS en/of JS niet ondersteunt valt het terug naar laag 1 of 2, z
 
 
 
-## Werkwijze
+## Aanpak
 
 Voor deze opdracht ga je een aantal UI componenten ontwerpen, bouwen en testen in verschillende lagen, volgens het principe van _Progressive Enhancement_. 
 
