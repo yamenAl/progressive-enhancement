@@ -65,19 +65,20 @@ Ieder teamlid werkt minimaal 2 componenten uit.
 
 ### Aanpak (per component)
 
-1. Beschrijf in eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen.
-2. Schets het component en de interactie 
-3. Laag 1: Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML (gebruik de hints en content in de code die klaarstaat, MDN en CanIUse).
-4. Test deze HTML versie op verschillende browsers en devices.
-5. Laag 2: Voeg CSS toe, aan de hand van MDN, CanIUse en `@supports`.
-6. Test deze “enhanced” versie op verschillende browsers en devices.
-7. Laag 3 en verder: Voeg eventueel meer CSS & JS toe, aan de hand van MDN, CanIUse, `@supports` en feature detection.
-8. Test deze “enhanced” versie(s) op verschillende browsers en devices.
-9. Documenteer je experiment.
+1. Maak een _issue_ met als titel de UI component.
+2. Beschrijf in de _description_ eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen.
+3. Schets het component en de interactie 
+4. Laag 1: Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML (gebruik de hints en content in de code die klaarstaat, MDN en CanIUse).
+5. Test deze HTML versie op verschillende browsers en devices.
+6. Laag 2: Voeg CSS toe, aan de hand van MDN, CanIUse en `@supports`.
+7. Test deze “enhanced” versie op verschillende browsers en devices.
+8. Laag 3 en verder: Voeg eventueel meer CSS & JS toe, aan de hand van MDN, CanIUse, `@supports` en feature detection.
+9. Test deze “enhanced” versie(s) op verschillende browsers en devices.
+10. Documenteer je experiment stap voor stap in het _issue_.
 
 #### voor sprint 11
-10. In sprint 11 is het doel pleasurable (ga lekker los).
-11. Documenteer je experiment.
+11. In sprint 11 is het doel pleasurable (ga lekker los).
+12. Documenteer je experiment.
 
 ### Bronnen bouwfase
 
@@ -93,7 +94,7 @@ Ieder teamlid werkt minimaal 2 componenten uit.
 
 Deze opdracht is done als:
 
-- [ ] Je hebt minstens drie interactie componenten uitgewerkt en gedocumenteerd
-- [ ] De breakdownschetsen zijn opgenomen in je wiki
+- [ ] Je hebt minstens drie user interface componente uitgewerkt en gedocumenteerd in een _issue_
+- [ ] De breakdownschetsen zijn opgenomen in het issue
 - [ ] Bij elke schets staat een korte uitleg van de code
 - [ ] Je werk is te bekijken via GitHub Pages
