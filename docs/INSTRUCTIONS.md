@@ -17,6 +17,7 @@ Maar het web is geen gecontroleerde (programmeer) omgeving, je kan er gerust van
 Het doel van deze opdracht is te leren hoe je een website kan ontwerpen en maken met behulp van _Progressive Enhancement_ zodat het voor iedereen toegankelijk is.
 
 ### Progressive enhancement
+
 Progressive Enhancement is een _(coding) strategie_, waarmee je er voor kunt zorgen dat je website het altijd doet, voor iedereen:
 
 1) Bepaal eerst de _core functionality_ van wat je gaat maken
@@ -45,45 +46,50 @@ Maak minimaal 3 van onderstaande user interface componenten:
 - [Veelgestelde vragen](https://fdnd-task.github.io/progressive-enhancement/faq.html)
 - [Switch control](https://fdnd-task.github.io/progressive-enhancement/switch.html)
 - [Mobiel menu](https://fdnd-task.github.io/progressive-enhancement/menu.html)
-- [Rating](https://fdnd-task.github.io/progressive-enhancement/rating.html)
 - [Favorieten picker](https://fdnd-task.github.io/progressive-enhancement/pickers.html)
 - [Carrousel](https://fdnd-task.github.io/progressive-enhancement/carrousel.html)
+- [Rating](https://fdnd-task.github.io/progressive-enhancement/rating.html)
 - [File upload met preview](https://fdnd-task.github.io/progressive-enhancement/file.html)
 - [Tabbladen](https://fdnd-task.github.io/progressive-enhancement/tabs.html)
 
-#### voor sprint 11
+<!--
+#### Voor Sprint 11
 
-Voor sprint 11 is het het interessantst om componenten uit je ontwerp voor de leertaak in sprint 11 te gebruiken. 
+Voor Sprint 11 is het het interessantst om componenten uit je ontwerp voor de leertaak in Sprint 11 te gebruiken. 
 Je mag ook componenten uit bovenstaande lijst gebruiken.
 Het is een individuele opdracht - dus elke teamlid werkt eigen componenten uit (of maakt een substantieel andere uitwerking van dezelfde component).
 
 Ieder teamlid werkt minimaal 2 componenten uit.
+-->
 
 ### Aanpak (per component)
 
-1. Maak een _issue_ met als titel de UI component.
-2. Beschrijf in de _description_ eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen.
-3. Schets het component en de interactie 
-4. Laag 1: Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML (gebruik de hints en content in de code die klaarstaat, MDN en CanIUse).
+1. Maak een _issue_ met als titel het UI component.
+2. Beschrijf in de _description_ in eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen.
+3. Schets het component en de interactie.
+4. Laag 1: Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML (gebruik de hints en content in de code die klaarstaat en MDN).
 5. Test deze HTML versie op verschillende browsers en devices.
-6. Laag 2: Voeg CSS toe, aan de hand van MDN, CanIUse en `@supports`.
+6. Laag 2: Voeg minimale CSS toe, aan de hand van MDN en `@supports`.
 7. Test deze “enhanced” versie op verschillende browsers en devices.
-8. Laag 3 en verder: Voeg eventueel meer CSS & JS toe, aan de hand van MDN, CanIUse, `@supports` en feature detection.
+8. Laag 3 en verder: Voeg eventueel meer CSS & JS toe, aan de hand van MDN, `@supports` en _feature detection_.
 9. Test deze “enhanced” versie(s) op verschillende browsers en devices.
 10. Documenteer je experiment stap voor stap in het _issue_.
 
-#### voor sprint 11
-11. In sprint 11 is het doel pleasurable (ga lekker los).
+<!--
+#### Voor Sprint 11
+11. In Sprint 11 is het doel pleasurable (ga lekker los).
 12. Documenteer je experiment.
+-->
 
-### Bronnen bouwfase
+### Bronnen
 
-* [Can I Use...](https://caniuse.com/)
+* [@supports in CSS @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
+* [Implementing feature detection @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection)
+
 * [Styling & Customizing File Inputs the Smart Way](https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/)
 * [It All Starts with a Humble `<textarea>`](https://24ways.org/2019/it-all-starts-with-a-humble-textarea/)
 * [Making a Better Custom Select Element](https://24ways.org/2019/making-a-better-custom-select-element/)
 * [Progressive Enhancement and Data Visualizations](https://css-tricks.com/progressive-enhancement-data-visualizations/)
-
 
 
 ## Criteria
