@@ -64,9 +64,9 @@ Ieder teamlid werkt minimaal 2 componenten uit.
 
 ### Aanpak (per component)
 
-1. Maak een _issue_ met als titel het UI component. Beschrijf in de _description_ in eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen. Schets het component en de interactie, en hou stap voor stap bij wat je doet.
-2. Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML met minimale CSS voor de huisstijl. Gebruik de hints en de content in de code die klaarstaat, en de bronnen hieronder. Test deze simpele versie op verschillende browsers en devices.
-3. Voeg eventueel meer CSS & JS toe, aan de hand van de bronnen hieronder, MDN, `@supports` en _feature detection_. Test deze “enhanced” versie(s) op verschillende browsers en devices.
+1. Maak een _issue_ met als titel het UI component. Beschrijf in de _description_ in eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen. Schets het component en de interactie.
+2. Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML met minimale CSS voor de huisstijl. Gebruik de hints en de content in de code die klaarstaat, en de bronnen hieronder. Koppel je commits aan je issue. Test deze simpele versie op verschillende browsers en devices, via GitHub Pages.
+3. Voeg eventueel meer CSS & JS _enhancements_ toe, aan de hand van de bronnen en coding strategieën hieronder. Test deze “enhanced” versie(s) op verschillende browsers en devices.
 
 <!--
 Strategiën voor verschillende “features”:
