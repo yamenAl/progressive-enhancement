@@ -19,13 +19,9 @@ Het doel van deze opdracht is te leren hoe je een website kan ontwerpen en maken
 ### Progressive enhancement
 Progressive Enhancement is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
 
-1. Eerst bouw je de _core functionality_ van je website in HTML, zo nodig met server-side rendering. 
-De _content layer_. 
-Zo zorg je er voor dat je website het in de meest eenvoudige vorm goed doet.
-2. Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen.
-Dit noemen we de _presentation layer_.
-3. Tot slot voeg je met CSS en JS extra enhancements toe om de _User Experience_ te verbeteren. 
-Als een browser CSS en/of JS niet ondersteunt valt het terug naar laag 1 of 2, zodat de website altijd werkt.
+1) Bepaal eerst de _core functionality_ van wat je gaat maken
+2) Bouw die functionaliteit met de _simpelste techniek_ (meestal HTML, met een klein beetje Mobile First CSS voor de huisstijl)
+3) Voeg daarna _extra enhancements_ toe met CSS en client-side JS, om de User Experience te verbeteren! (de leukste stap, waar veel frontenders meteen heen springen)
 
 ![image](https://github.com/fdnd-task/progressive-enhancement/assets/1391509/f6d0490b-6748-4fc8-8a63-d33d2f2d0b68)
 <br><small>_The skateboard may be a little slower, but it doesn’t stop the user getting to where they want to go. So, if the user’s browser doesn’t support JavaScript or modern CSS then it doesn’t break_ - Andy Bell
