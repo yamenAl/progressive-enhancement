@@ -17,7 +17,7 @@ Maar het web is geen gecontroleerde (programmeer) omgeving, je kan er gerust van
 Het doel van deze opdracht is te leren hoe je een website kan ontwerpen en maken met behulp van _Progressive Enhancement_ zodat het voor iedereen toegankelijk is.
 
 ### Progressive enhancement
-Progressive Enhancement is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
+Progressive Enhancement is een _(coding) strategie_, waarmee je er voor kunt zorgen dat je website het altijd doet, voor iedereen:
 
 1) Bepaal eerst de _core functionality_ van wat je gaat maken
 2) Bouw die functionaliteit met de _simpelste techniek_ (meestal HTML, met een klein beetje Mobile First CSS voor de huisstijl)
