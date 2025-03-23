@@ -64,16 +64,20 @@ Ieder teamlid werkt minimaal 2 componenten uit.
 
 ### Aanpak (per component)
 
-1. Maak een _issue_ met als titel het UI component.
-2. Beschrijf in de _description_ in eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen.
-3. Schets het component en de interactie.
-4. Laag 1: Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML (gebruik de hints en content in de code die klaarstaat en MDN).
-5. Test deze HTML versie op verschillende browsers en devices.
-6. Laag 2: Voeg minimale CSS toe, aan de hand van MDN en `@supports`.
-7. Test deze “enhanced” versie op verschillende browsers en devices.
-8. Laag 3 en verder: Voeg eventueel meer CSS & JS toe, aan de hand van MDN, `@supports` en _feature detection_.
-9. Test deze “enhanced” versie(s) op verschillende browsers en devices.
-10. Documenteer je experiment stap voor stap in het _issue_.
+1. Maak een _issue_ met als titel het UI component. Beschrijf in de _description_ in eigen woorden wat dit component is, en wat de _core functionaliteit_ is. Gebruik de demo video om een idee te krijgen. Schets het component en de interactie, en hou stap voor stap bij wat je doet.
+2. Onderzoek welke HTML je voor de _core functionaliteit_ nodig hebt, maak hiervan een breakdownschets, en codeer je HTML met minimale CSS voor de huisstijl. Gebruik de hints en de content in de code die klaarstaat, en de bronnen hieronder. Test deze simpele versie op verschillende browsers en devices.
+3. Voeg eventueel meer CSS & JS toe, aan de hand van de bronnen hieronder, MDN, `@supports` en _feature detection_. Test deze “enhanced” versie(s) op verschillende browsers en devices.
+
+<!--
+Strategiën voor verschillende “features”:
+- met @supports (background-clip: text)
+- met een feature detect in JS (<button hidden> + feature detect + button.hidden=false)
+- door HTML goed op te bouwen (<video src=video.mp4><a href=video.mp4>Download video</a></video>)
+- door ok te zijn met verschillen in browsers (zoals high def color -> op een Kindle sowieso geen kleur)
+- met een polyfill (invoker commands)
+- door een goede one column layout (nesting, custom props?)
+- door “progressive enhancement”
+-->
 
 <!--
 #### Voor Sprint 11
