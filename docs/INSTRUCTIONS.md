@@ -104,7 +104,7 @@ Strategiën voor verschillende “features”:
 
 Deze opdracht is done als:
 
-- [ ] Je hebt minstens drie user interface componente uitgewerkt en gedocumenteerd in een _issue_
+- [ ] Je hebt minstens drie user interface componenten uitgewerkt en gedocumenteerd in een _issue_
 - [ ] De breakdownschetsen zijn opgenomen in het issue
 - [ ] Bij elke schets staat een korte uitleg van de code
 - [ ] Je werk is te bekijken via GitHub Pages
