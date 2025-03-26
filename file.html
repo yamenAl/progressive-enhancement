@@ -11,7 +11,41 @@
 
 			/* Hint: Denk niet te ingewikkeld */
 		</style>
-		<script type="module">
+		<script>
+			const inputImg = document.getElementById('imgInput')
+			const img = document.getElementById('img')
+
+			function getImg(event){
+
+				const file = event.target.files[0]; // 0 = get the first file
+
+				console.log(file);
+
+				let url = window.URL.createObjectURL(file);
+
+				// console.log(url)
+
+				img.src = url
+			}
+
+			inputImg?.addEventListener('change', getImg)
+			function previewFile() {
+			var preview = document.querySelector('img');
+			var file    = document.querySelector('input[type=file]').files[0];
+			var reader  = new FileReader();
+
+			reader.onloadend = function () {
+				preview.src = reader.result;
+			}
+
+			if (file) {
+				reader.readAsDataURL(file);
+			} else {
+				preview.src = "";
+			}
+			}
+
+		
 			/* Schrijf hier eventueel je client-side JavaScript */
 			
 			/* Hint: Met een paar regels kom je al een heel eind */
@@ -27,17 +61,41 @@
 	</head>
 	<body>
 		<h1>File upload met preview</h1>
+		<input type="file" onchange="previewFile()"><br>
+		<img src="" height="200" alt="Image preview...">
+
+		
+	
+
+
 
 		<!-- Voor het uploaden van een bestand heb je altijd een formulier nodig.
 		     Dus die krijg je alvast. Maak je over de server niet druk; het gaat om de UI. -->
-		<form method="post">
 
-			<!-- Hint: Denk niet te ingewikkeld -->
+			<!-- Hint: Denk niet te ingewikkeld 
+			 test 1
+			 		<form method="post">
+			<label for="file">Choose a file</label>
+			<input type="file" name="file" id="file" class="inputfile" />
 
+			<input type="file" id="input" multiple />
+				</form>
+			
+			 test 2
+			 <form action="/home/save" method="post" enctype="multipart/form-data" >   
+			Upload Image: <input type="file" name="image" />  
+			<input type="submit" value="testtt" />
+			</form>
+			test 3
 			<button type="submit" class="fdnd-button">Uploaden</button>
 
-		</form>
+			 -->
 
+			
+
+	
+
+		
 		<details open>
 			<summary>Demo video</summary>
 			<video src="assets/file.mp4" width="1496" height="496" controls muted autoplay loop>
