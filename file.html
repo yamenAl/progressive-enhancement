@@ -7,26 +7,19 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 		<link href="assets/styles.css" rel="stylesheet">
 		<style>
+			.review-area{
+				width: 400px;
+				height: 200px;
+				background-color: var(--green);
+				border: 1px solid black;
+				border-radius: 5px;
+			}
 			/* Schrijf hier gewoon je CSS voor dit component */
 
 			/* Hint: Denk niet te ingewikkeld */
 		</style>
 		<script>
-			const inputImg = document.getElementById('imgInput')
-			const img = document.getElementById('img')
-
-			function getImg(event){
-
-				const file = event.target.files[0]; // 0 = get the first file
-
-				console.log(file);
-
-				let url = window.URL.createObjectURL(file);
-
-				// console.log(url)
-
-				img.src = url
-			}
+			/*`BRONEN: https://stackoverflow.com/questions/5802580/html-input-type-file-get-the-image-before-submitting-the-form/8085363#8085363 */
 
 			inputImg?.addEventListener('change', getImg)
 			function previewFile() {
@@ -60,13 +53,18 @@
 		</script>
 	</head>
 	<body>
-		<h1>File upload met preview</h1>
-		<input type="file" onchange="previewFile()"><br>
-		<img src="" height="200" alt="Image preview...">
+			<!--  1.bronen:https://stackoverflow.com/questions/5802580/html-input-type-file-get-the-image-before-submitting-the-form/8085363#8085363
+		  	  2.bronen:https://stackoverflow.com/questions/41300529/upload-image-with-input-file-button-or-drag-and-drop-the-file
 
-		
-	
-
+			 -->
+			<h1>File upload met preview</h1>
+			<form>
+				<p>
+					value="selecteer je afbeelding"
+				</p>
+				<input class="fdnd-button" type="submit" value="Uploaden"  onchange="previewFile()" ><br>
+				<img class="review-area" src="" height="200" alt="">
+			</form>
 
 
 		<!-- Voor het uploaden van een bestand heb je altijd een formulier nodig.
@@ -93,9 +91,7 @@
 
 			
 
-	
 
-		
 		<details open>
 			<summary>Demo video</summary>
 			<video src="assets/file.mp4" width="1496" height="496" controls muted autoplay loop>
